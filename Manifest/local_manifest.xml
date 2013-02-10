@@ -11,7 +11,6 @@
   <!--Added-->
   <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="ev" revision="jellybean" />
   <project path="device/htc/inc" name="tiny4579/android_device_htc_inc" revision="cm-10.1" />
-  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="ev" revision="jellybean" />
   <project path="kernel/htc/incredikernel" name="tiny4579/android_kernel_common" revision="incredikernel-jb42" />
   <!--pseudo_buildbot is a WIP. You can leave it out-->
   <project path="vendor/htc" name="android_vendor_htc" remote="ev" revision="jellybean" />
