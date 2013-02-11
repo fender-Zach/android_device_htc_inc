@@ -34,7 +34,8 @@ Make sure we're in ~/cm10...
 cd ~/PAC4.2
 ```
 Make The Vendors)...
-
+Android Products Put it into vendor/pac/products http://d-h.st/C8i
+pac_inc.mk Put into vendor/pac/products http://d-h.st/3S0
 
 And build!
 ```bash
