@@ -18,7 +18,7 @@ repo init -u git://github.com/PAC-man/android.git -b cm-10.1
 
 ### Finish setting up repo
 ```bash
-wget -O .repo/local_manifest.xml https://raw.github.com/zachf714AOKP/android_device_htc_inc/cm-10.1/Manifest/local_manifest.xml
+wget -O .repo/local_manifest.xml https://raw.github.com/fender-Zach/android_device_htc_inc/cm-10.1/Manifest/local_manifest.xml
 ```
 
 ### Download the source
