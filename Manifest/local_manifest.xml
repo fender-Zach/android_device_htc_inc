@@ -16,6 +16,12 @@
   <!--pseudo_buildbot is a WIP. You can leave it out-->
   <project path="vendor/cm/bot" name="PonsAsinorem/pseudo_buildbot" revision="jb" />
   <project path="vendor/htc" name="android_vendor_htc" remote="ev" revision="jellybean" />
+  
+   <!-- For building with Linaro - rename or delete this file and resync for a normal build -->
+  <remove-project name="PAC-man/android_build" path="build" />
+  <project name="loosethisskin/android_build" path="build" revision="cm-10.1-linaro" />
+  <remove-project name="CyanogenMod/android_bionic" path="bionic" />
+  <project name="loosethisskin/android_bionic" path="bionic" revision="cm-10.1-linaro" />
 
   <!--Replaced-->
   <remove-project path="frameworks/av" name="CyanogenMod/android_frameworks_av" />  
