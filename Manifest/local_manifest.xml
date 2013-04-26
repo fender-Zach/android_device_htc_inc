@@ -19,10 +19,10 @@
 
 
   <!--Replaced-->
-  <remove-project path="frameworks/av" name="CyanogenMod/android_frameworks_av" />  
+  <remove-project path="frameworks/av" name="Evervolv/android_frameworks_av" />  
   <project path="frameworks/av" name="android_frameworks_av" remote="ev" revision="jellybean" />
 
-  <remove-project path="frameworks/native" name="CyanogenMod/android_frameworks_native" />  
+  <remove-project path="frameworks/native" name="Chad0989/android_frameworks_native" />  
   <project path="frameworks/native" name="android_frameworks_native" remote="ev" revision="jellybean" />
 
   <remove-project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" />
