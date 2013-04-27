@@ -12,17 +12,17 @@
   <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="ev" revision="jellybean" />
   <project path="device/htc/inc" name="tiny4579/android_device_htc_inc" revision="cm-10.1" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="ev" revision="jellybean" />
-  <project path="kernel/htc/incredikernel" name="tiny4579/android_kernel_common" revision="incredikernel-jb42" />
+  <project path="kernel/htc/incredikernel" name="tiny4579/android_kernel_common" revision="incredikernel-jb42-devel" />
   <!--pseudo_buildbot is a WIP. You can leave it out-->
   <project path="vendor/cm/bot" name="PonsAsinorem/pseudo_buildbot" revision="jb" />
   <project path="vendor/htc" name="android_vendor_htc" remote="ev" revision="jellybean" />
 
 
   <!--Replaced-->
-  <remove-project path="frameworks/av" name="Evervolv/android_frameworks_av" />  
+  <remove-project path="frameworks/av" name="CyanogenMod/android_frameworks_av" />  
   <project path="frameworks/av" name="android_frameworks_av" remote="ev" revision="jellybean" />
 
-  <remove-project path="frameworks/native" name="Chad0989/android_frameworks_native" />  
+  <remove-project path="frameworks/native" name="CyanogenMod/android_frameworks_native" />  
   <project path="frameworks/native" name="android_frameworks_native" remote="ev" revision="jellybean" />
 
   <remove-project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" />
