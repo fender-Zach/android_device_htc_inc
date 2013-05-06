@@ -41,6 +41,8 @@
   <project path="hardware/ril" name="android_hardware_ril" remote="ev" revision="jellybean" />
 
   <!--Removed-->
+  <remove-project path="hardware/qcom/display-legacy" name="arco/android_hardware_qcom_display-legacy" />
+  <remove-project path="hardware/qcom/media-legacy" name="arco/android_hardware_qcom_media-legacy" />
   <remove-project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" />
   <remove-project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" />
   <remove-project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
