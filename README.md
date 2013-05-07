@@ -28,6 +28,11 @@ repo sync
 ```
 NOTE: This WILL take a long time.
 
+Build Fixes
+
+cd ~/PACMANROM/android  git revert ce48f5d  and git revert 7434a2b
+cd ~/PACMANROM/hardware/libhardware  git revert 5b70e9b2
+
 ### Build
 Make sure we're in ~/cm10...
 ```bash
