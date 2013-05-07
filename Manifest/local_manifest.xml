@@ -32,6 +32,7 @@
   <project path="hardware/qcom/audio-legacy" name="android_hardware_qcom_audio-legacy" remote="ev" revision="jellybean" />
 
   <remove-project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
+  <remove-project path="hardware/qcom/display-legacy" name="arco/android_hardware_qcom_display-legacy" />
   <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="ev" revision="jellybean" />
     
   <remove-project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
@@ -41,6 +42,7 @@
   <project path="hardware/ril" name="android_hardware_ril" remote="ev" revision="jellybean" />
 
   <!--Removed-->
+  <remove-project path="hardware/qcom/media-legacy" name="arco/android_hardware_qcom_media-legacy" />
   <remove-project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" />
   <remove-project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" />
   <remove-project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
