@@ -34,6 +34,9 @@
   <remove-project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_display" />
   <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="ev" revision="jellybean" />
 
+  <remove-project path="hardware/qcom/display-legacy" name="arco/android_hardware_qcom_display-legacy" />
+  <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="ev" revision="jellybean" />
+    
   <remove-project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps-legacy" remote="ev" revision="jellybean" />
 
