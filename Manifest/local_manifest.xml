@@ -44,6 +44,7 @@
   <project path="hardware/ril" name="android_hardware_ril" remote="ev" revision="jellybean" />
 
   <!--Removed-->
+  <remove-project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
   <remove-project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" />
   <remove-project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" />
   <remove-project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
