@@ -4,9 +4,6 @@
   <remote  name="ev"
            fetch="https://github.com/Evervolv/"
            review="review.evervolv.com" />
-           
-  <remote  name="rb"
-           fetch="https://github.com/Root-Box/" />
 
   <remote  name="fz"
            fetch="https://github.com/fender-Zach/" />
@@ -28,17 +25,8 @@
   <remove-project path="frameworks/native" name="PAC-man/android_frameworks_native" />  
   <project path="frameworks/native" name="android_frameworks_native" remote="fz" revision="jellybean" />
 
-  <remove-project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" />
   <project path="hardware/qcom/audio-legacy" name="android_hardware_qcom_audio-legacy" remote="ev" revision="jellybean" />
-
-  <remove-project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
   <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="ev" revision="jellybean" />
-  
-  <remove-project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="ev" revision="jellybean"/>
-  
-    <remove-project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="ev" revision="jellybean"/>
     
   <remove-project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps-legacy" remote="ev" revision="jellybean" />
