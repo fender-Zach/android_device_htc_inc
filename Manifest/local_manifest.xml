@@ -42,7 +42,6 @@
   <remove-project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <remove-project path="packages/apps/Nfc" name="CarbonDev/android_packages_apps_Nfc" />
   <remove-project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
-  <remove-project path="packages/apps/VideoEditor" name="CyanogenMod/android_packages_apps_VideoEditor" />
   <remove-project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <remove-project path="packages/wallpapers/BlueBalls" name="packages_wallpapers_BlueBalls" />
   <remove-project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
