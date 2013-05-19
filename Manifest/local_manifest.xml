@@ -12,7 +12,7 @@
   <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="ev" revision="jellybean" />
   <project path="device/htc/inc" name="tiny4579/android_device_htc_inc" revision="cm-10.1" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="ev" revision="jellybean" />
-  <project path="kernel/htc/incredikernel" name="android_kernel_htc_qsd8k" remote="ev" revision="jellybean" />
+  <project path="kernel/htc/evervolv" name="android_kernel_htc_qsd8k" remote="ev" revision="jellybean" />
   <!--pseudo_buildbot is a WIP. You can leave it out-->
   <project path="vendor/cm/bot" name="PonsAsinorem/pseudo_buildbot" revision="jb" />
   <project path="vendor/htc" name="android_vendor_htc" remote="ev" revision="jellybean" />
@@ -33,24 +33,21 @@
 
   <remove-project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
   <project path="hardware/ril" name="android_hardware_ril" remote="ev" revision="jellybean" />
-  
-  <remove-project path="vendor/cm" name="PAC-man/android_vendor_cm" />
-  <project name="tiny4579/android_vendor_cm" path="vendor/cm" revision="cm-10.1" />
 
   <!--Removed-->
-  <remove-project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
-  <remove-project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" />
-  <remove-project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" />
-  <remove-project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
-  <remove-project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
+  
+  <remove-project name="arco/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" />
+  <remove-project name="arco/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" />
+  <remove-project path="packages/apps/DashClock" name="XYAOSP/packages_apps_DashClock" />
+  <remove-project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
+  <remove-project path="packages/apps/Nfc" name="CarbonDev/android_packages_apps_Nfc" />
   <remove-project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
-  <remove-project path="packages/apps/SpareParts" name="CyanogenMod/android_packages_apps_SpareParts" />
   <remove-project path="packages/apps/VideoEditor" name="CyanogenMod/android_packages_apps_VideoEditor" />
-  <remove-project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" />
-  <remove-project path="packages/wallpapers/Galaxy4" name="CyanogenMod/android_packages_wallpapers_Galaxy4" />
-  <remove-project path="packages/wallpapers/HoloSpiral" name="CyanogenMod/android_packages_wallpapers_HoloSpiral" />
-  <remove-project path="packages/wallpapers/MagicSmoke" name="CyanogenMod/android_packages_wallpapers_MagicSmoke" />
-  <remove-project path="packages/wallpapers/MusicVisualization" name="CyanogenMod/android_packages_wallpapers_MusicVisualization" />
-  <remove-project path="packages/wallpapers/NoiseField" name="CyanogenMod/android_packages_wallpapers_NoiseField" />
-  <remove-project path="packages/wallpapers/PhaseBeam" name="CyanogenMod/android_packages_wallpapers_PhaseBeam" />
+  <remove-project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
+  <remove-project path="packages/wallpapers/BlueBalls" name="packages_wallpapers_BlueBalls" />
+  <remove-project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
+  <remove-project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
+  <remove-project path="packages/wallpapers/LivePicker" name="packages_wallpapers_LivePicker" />
+  <remove-project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
+  <remove-project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
 </manifest>
