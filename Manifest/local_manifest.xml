@@ -19,10 +19,10 @@
 
 
   <!--Replaced-->
-  <remove-project path="frameworks/av" name="CyanogenMod/android_frameworks_av" />  
+  <remove-project path="frameworks/av" name="CarbonDev/android_frameworks_av" />  
   <project path="frameworks/av" name="android_frameworks_av" remote="ev" revision="jellybean" />
 
-  <remove-project path="frameworks/native" name="PAC-man/android_frameworks_native" />  
+  <remove-project path="frameworks/native" name="CarbonDev/android_frameworks_native" />  
   <project path="frameworks/native" name="android_frameworks_native" remote="fz" revision="jellybean" />
 
   <project path="hardware/qcom/audio-legacy" name="android_hardware_qcom_audio-legacy" remote="ev" revision="jellybean" />
