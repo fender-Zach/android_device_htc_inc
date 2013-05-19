@@ -17,7 +17,6 @@
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="ev" revision="jellybean" />
   <project path="kernel/htc/evervolv" name="android_kernel_htc_qsd8k" remote="ev" revision="jellybean" />
   <!--pseudo_buildbot is a WIP. You can leave it out-->
-  <project path="vendor/htc" name="android_vendor_htc" remote="ev" revision="jellybean" />
 
 
   <!--Replaced-->
@@ -35,6 +34,9 @@
 
   <remove-project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
   <project path="hardware/ril" name="android_hardware_ril" remote="ev" revision="jellybean" />
+  
+  <remove-project path="vendor/htc" name="CarbonDev/proprietary_vendor_htc" />
+  <project path="vendor/htc" name="android_vendor_htc" remote="ev" revision="jellybean" />
 
   <!--Removed-->
   
